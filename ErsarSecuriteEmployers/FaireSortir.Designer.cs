@@ -30,8 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnClose = new ImageProcessing.MyButton();
-            this.bntMinimize = new ImageProcessing.MyButton();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.MatriculTXT = new System.Windows.Forms.TextBox();
@@ -39,6 +37,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.paneltohide = new System.Windows.Forms.Panel();
+            this.btnClose = new ImageProcessing.MyButton();
+            this.bntMinimize = new ImageProcessing.MyButton();
             this.myButton1 = new ImageProcessing.MyButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -72,44 +72,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnClose.CornerRadius = 50;
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(612, 15);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.RoundCorners = ((ImageProcessing.Corners)((((ImageProcessing.Corners.TopLeft | ImageProcessing.Corners.TopRight) 
-            | ImageProcessing.Corners.BottomLeft) 
-            | ImageProcessing.Corners.BottomRight)));
-            this.btnClose.Size = new System.Drawing.Size(27, 25);
-            this.btnClose.TabIndex = 7;
-            this.btnClose.Text = "✘";
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // bntMinimize
-            // 
-            this.bntMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bntMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
-            this.bntMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.bntMinimize.CornerRadius = 50;
-            this.bntMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bntMinimize.ForeColor = System.Drawing.Color.Black;
-            this.bntMinimize.Location = new System.Drawing.Point(575, 15);
-            this.bntMinimize.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bntMinimize.Name = "bntMinimize";
-            this.bntMinimize.RoundCorners = ((ImageProcessing.Corners)((((ImageProcessing.Corners.TopLeft | ImageProcessing.Corners.TopRight) 
-            | ImageProcessing.Corners.BottomLeft) 
-            | ImageProcessing.Corners.BottomRight)));
-            this.bntMinimize.Size = new System.Drawing.Size(27, 25);
-            this.bntMinimize.TabIndex = 5;
-            this.bntMinimize.Text = "_";
-            this.bntMinimize.Click += new System.EventHandler(this.bntMinimize_Click);
             // 
             // tableLayoutPanel12
             // 
@@ -203,6 +165,44 @@
             this.paneltohide.Name = "paneltohide";
             this.paneltohide.Size = new System.Drawing.Size(648, 177);
             this.paneltohide.TabIndex = 37;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnClose.CornerRadius = 50;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Location = new System.Drawing.Point(612, 15);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.RoundCorners = ((ImageProcessing.Corners)((((ImageProcessing.Corners.TopLeft | ImageProcessing.Corners.TopRight) 
+            | ImageProcessing.Corners.BottomLeft) 
+            | ImageProcessing.Corners.BottomRight)));
+            this.btnClose.Size = new System.Drawing.Size(27, 25);
+            this.btnClose.TabIndex = 7;
+            this.btnClose.Text = "✘";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // bntMinimize
+            // 
+            this.bntMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bntMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
+            this.bntMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bntMinimize.CornerRadius = 50;
+            this.bntMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bntMinimize.ForeColor = System.Drawing.Color.Black;
+            this.bntMinimize.Location = new System.Drawing.Point(575, 15);
+            this.bntMinimize.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bntMinimize.Name = "bntMinimize";
+            this.bntMinimize.RoundCorners = ((ImageProcessing.Corners)((((ImageProcessing.Corners.TopLeft | ImageProcessing.Corners.TopRight) 
+            | ImageProcessing.Corners.BottomLeft) 
+            | ImageProcessing.Corners.BottomRight)));
+            this.bntMinimize.Size = new System.Drawing.Size(27, 25);
+            this.bntMinimize.TabIndex = 5;
+            this.bntMinimize.Text = "_";
+            this.bntMinimize.Click += new System.EventHandler(this.bntMinimize_Click);
             // 
             // myButton1
             // 

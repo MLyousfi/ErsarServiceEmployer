@@ -114,15 +114,15 @@ namespace ErsarServiceEmployers.Data
 
 
 
-                ws.Cells[19 , 7].value2 = model.numMatricul;
-                ws.Cells[23,5].value2 = model.nom;
-                ws.Cells[25,5].value = model.prenom;
-                ws.Cells[27,5].value2 = model.adresse;
-                ws.Cells[32, 5].value2 = model.gsm;
-                ws.Cells[34, 5].value2 = model.cin;
-                ws.Cells[36, 5].value2 = model.cnss;
-                ws.Cells[38, 5].value2 = model.rib;
-                ws.Cells[40, 5].value2 = model.site;
+                ws.Cells[18, 7].value2 = model.numMatricul;
+                ws.Cells[22, 5].value2 = model.nom;
+                ws.Cells[24, 5].value = model.prenom;
+                ws.Cells[26, 5].value2 = model.adresse;
+                ws.Cells[31, 5].value2 = model.gsm;
+                ws.Cells[33, 5].value2 = model.cin;
+                ws.Cells[35, 5].value2 = model.cnss;
+                ws.Cells[37, 5].value2 = model.rib;
+                ws.Cells[39, 5].value2 = model.site;
 
                 PrintingPDF(Path.Combine(model.EmployerFolder, "Fiche.pdf"));
                 dc.LoadFiles(dc.comboBox1.Text);
